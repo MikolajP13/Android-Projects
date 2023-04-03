@@ -7,6 +7,10 @@ android {
     namespace 'com.example.recyclerviewapp'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.recyclerviewapp"
         minSdk 29
